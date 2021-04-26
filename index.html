@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>JB IT College</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords" content="JB College, IT College, Marine Lines, College in Mumbai, India">
+	<meta name="author" content="Yash Pareek">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="javascript/js.js="></script>
+
+
+</head>
+
+<body class="body">
+	<header class="mainheader">
+		<img src="">
+		<content id="search">
+			<form>
+				<input type="text" name="search" placeholder="Search anything..."
+					onclick="window.location.href='search.html'">
+			</form>
+		</content>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="course.html">Course</a></li>
+				<li><a href="download.html">Download</a></li>
+
+
+			</ul>
+		</nav>
+	</header>
+	<br>
+	<div class="slideshow-container">
+
+		<div class="iambrpslides fade">
+			<div class="numbertext">01 / 03</div>
+			<img src="IMG11.jpg">
+		</div>
+
+		<div class="iambrpslides fade">
+			<div class="numbertext">02 / 03</div>
+			<img src="IMG12.jpg">
+		</div>
+
+		<div class="iambrpslides fade">
+			<div class="numbertext">03 / 03</div>
+			<img src="IMG10.jpg">
+		</div>
+
+	</div>
+
+
+	<div style="text-align:center">
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+	</div>
+
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("iambrpslides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) { slideIndex = 1 }
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+			setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+		}
+	</script>
+	<br>
+
+	<script type="text/javascript">
+		document.title = "Home";
+	</script>
+
+
+	<script src="scripts/slider.js"></script>
+	<div class="mainContent">
+		<div class="Content">
+			<article class="topContent">
+				<header>
+					<h3><a href="#" title="My First Post">JB </a> </h3>
+				</header>
+				<footer>
+					<p class="post-info">This is written by Yash Pareek </p>
+				</footer>
+				<content>
+					<p> JB IT College Mumbai, is an autonomous Private Institution dedicated
+						to maintain excellent academic performance. Since its establishment in 2011, Informatics College
+						has been actively working as a regular franchisee of Informatics Education Limited, India.
+						Informatics College has an established track record of Academic excellence, within the Networks
+						of Informatics – Globally. We are supported by a team of dedicated Professors, Lecturers,
+						Counselors, meticulous management with a caring H.R. support service.
+
+
+					</p>
+				</content>
+			</article>
+
+			<article class="bottomContent">
+				<header>
+					<h3><a href="#" title="Pathway Programme">Pathway Programme</a> </h3>
+				</header>
+				<footer>
+					<p class="post-info">This is post written by Yash Pareek</p>
+				</footer>
+				<content>
+					<p>We plan for quality higher education programmes with complete progression pathway for you – from
+						Foundation program up to Postgraduate degree level by the universities in Australia and United
+						Kingdom.
+
+						Our distinguished Academic and Examination Board also sets the academic and examination
+						standards of Informatics Academy’s programmes.
+
+						We make learning exclusive for you.
+						We focus in giving you the best.
+
+					</p>
+				</content>
+			</article>
+
+
+		</div>
+	</div>
+	<aside class="top-sidebar">
+		<article>
+			<h3>Join us today!</h3>
+			<p>Embark on an exciting learning journey with Informatics</p>
+		</article>
+	</aside>
+
+	<aside class="middle-sidebar">
+		<article>
+			<h3>Your Boardroom Qualification</h3>
+			<p>A Degree to stand out from the crowd…...</p>
+		</article>
+	</aside>
+
+	<aside class="buttom-sidebar">
+		<article>
+			<h3>Be ahead of your peers</h3>
+			<p>Fast track your education with Informatics</p>
+		</article>
+	</aside>
+
+	<footer class="mainFooter">
+		<p>Copyright &copy <a href="https://www.facebook.com">Yash Pareek</a> </p>
+		<center>
+			<a href="https://www.facebook.com">Facebook</a>
+			<a href="https://www.twitter.com">Twitter</a>
+			<a href="https://www.instagram.com">Instagram</a>
+		</center>
+	</footer>
+
+</body>
+
+</html>
